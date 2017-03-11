@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>捷安特旅行社</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/dateSelect/dateSelect.css">
+  <link rel="stylesheet" href="css/bass.css">
+  <link rel="stylesheet" href="css/forget.css">
+</head>
+<body>
+  <!-- header start -->
+  <div class="bass_head">
+    <div class="center">
+      <button type="button" id="m_headbtn" class="m_headbtn btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-list"></span>
+      </button>
+      <button type="button" id="m_nav_btn" class="m_navbtn btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-remove"></span>
+      </button>
+      <a class="bass_head_a" href="index.html">
+        <img class="bass_headlogo" src="images/bass/top_logo.png" alt="">
+      </a>
+      <span class="m_login">
+        <a class="m_login_btn" href="login.html">登录</a>
+      </span>
+    </div>
+  </div>
+  <!-- header end -->
+  <!-- nav start -->
+  <div class="bass_nav">
+    <div class="nav_center">
+      <ul class="nav_ul">
+        <li class="nav_li">
+          <a class="nav_li_a on" href="index.html">首页</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a" href="xingcheng.html">旅游行程</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a" href="dingzhi.html">定制行程</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a" href="zixun_dt.html">动态资讯</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a" href="about.html">关于我们</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a" href="huiyuan.html">会员中心</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a" href="http://www.giant.com.cn/">giant官网</a>
+        </li>
+      </ul>
+      <span class="nav_login">
+        <a class="nav_login_btn" href="login.html">登录</a>
+      </span>
+    </div>
+  </div>
+  <div class="m_bass_nav">
+    <ul class="m_bass_nav_ul list-group">
+      <li class="m_bass_nav_li on list-group-item">
+        <a class="m_bass_nav_lia" href="index.html">首页</a>
+      </li>
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="xingcheng.html">旅游行程</a>
+      </li>
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="dingzhi.html">定制行程</a>
+      </li>
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="zixun_dt.html">动态资讯</a>
+      </li>
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="about.html">关于我们</a>
+      </li>
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="huiyuan.html">会员中心</a>
+      </li>
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="http://www.giant.com.cn/">giant官网</a>
+      </li>
+    </ul>
+  </div>
+  <!-- nav end -->
+
+  <div class="forget">
+    <div class="forget_center">
+      <div class="forget_content">
+        <div class="forget_nav">
+          <ul class="forget_nav_ul">
+            <li class="forget_nav_li on">1、填写账户</li>
+            <li class="forget_nav_img"><img src="images/forget/writeline.png" /></li>
+            <li class="forget_nav_li">2、安全验证</li>
+            <li class="forget_nav_img"><img src="images/forget/writeline.png" /></li>
+            <li class="forget_nav_li">3、重置密码</li>
+          </ul>
+        </div>
+        <div class="forget_main">
+          <div class="forget_con" style="display: inline-block;">
+            <div class="forget_zhanghao">
+              <input class="forget_zhanghao_input" type="text" placeholder="*请填写您要找回密码的账号"/>
+            </div>
+            <div class="forget_zhanghao_btn">
+              <a id="forget_zhanghao_btn" href="javascript:;">下一步</a>
+            </div>
+          </div>
+          <div class="forget_con" style="display: none;">
+            <div class="forget_yanzheng">
+              <div class="forget_yz">
+                <span class="forget_yz_tel">验证账号：</span>
+                <span class="forget_zy_zhanghao">15001014523</span>
+              </div>
+              <div class="forget_yz">
+                <span class="forget_yz_tel">图片验证码：</span>
+                <div class="chongzhi_yanzheng">
+                  <input class="chongzhi_mima_yzm" type="text" placeholder="*请输入验证码"/>
+                  <img class="chongzhi_mima_img" src="images/forget/yzm.png" />
+                  <a class="chongzhi_mima_a" href="javascript:;">看不清楚？</a>
+                </div>
+              </div>
+              <div class="forget_yz">
+                <span class="forget_yz_tel">短信验证码：</span>
+                <div class="chongzhi_yanzheng chongzhi_duanxin">
+                  <input class="chongzhi_mima_yzm" type="text" placeholder="*请输入验证码"/>
+                  <a href="javascript:;" class="forget_duanxin" id="faduanxin">发送短信</a>
+                  <div class="bmzf_liji_time">
+                    <span id="s1">60</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="forget_zhanghao_btn">
+              <a id="forget_yanzheng_btn" href="javascript:;">下一步</a>
+            </div>
+          </div>
+          <div class="forget_con" style="display: none;">
+            <div class="forget_chongzhi">
+              <div class="chongzhi_mima">
+                <span class="chongzhi_mimatel">输入密码：</span>
+                <input class="chongzhi_mima_input" type="text" placeholder="*请输入新密码"/>
+              </div>
+              <div class="chongzhi_mima">
+                <span class="chongzhi_mimatel">再次输入密码：</span>
+                <input class="chongzhi_mima_input" type="text" placeholder="*请再次输入密码"/>
+              </div>
+              <div class="chongzhi_mima">
+                <span class="chongzhi_mimatel">请输入验证码：</span>
+                <div class="chongzhi_yanzheng">
+                  <input class="chongzhi_mima_yzm" type="text" placeholder="*请输入验证码"/>
+                  <img class="chongzhi_mima_img" src="images/forget/yzm.png" />
+                  <a class="chongzhi_mima_a" href="javascript:;">看不清楚？</a>
+                </div>
+              </div>
+            </div>
+            <div class="forget_zhanghao_btn">
+              <a href="javascript:;">完成</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="t_mask" style="display: none;">
+      <div class="t_box message_fasong">
+        <span class="duanxin_fasong">短信发送成功，请注意查收验证码！</span>
+        <a href="javascript:;" class="message_close">确定</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- bottom start -->
+  <div class="index_bottom">
+    <div class="bottom_top">
+      <div class="center">
+        <div class="bottom_topleft">
+          <a class="bottom_topleft_a" href="javascript:;">@捷安特（昆山）有限公司</a>
+          <span>预约热线：0512-57022237</span>
+        </div>
+        <div class="bottom_topright">
+          <span class="bottom_topright_span">捷安特相关站点链接：</span>
+          <select class="bottom_select" name="" id="">
+            <option value="0">
+              <a href="javascript:;">网站链接</a>
+            </option>
+            <option value="http://www.giant.com.cn/">
+              <a href="http://www.giant.com.cn/">捷安特官网</a>
+            </option>
+            <option value="http://www.livgiant.com.cn/index.html">
+              <a href="http://www.livgiant.com.cn/index.html">Liv/giant</a>
+            </option>
+            <option value="http://www.giantev.com.cn/zh-EV/">
+              <a href="http://www.giantev.com.cn/zh-EV/">捷安特.电动车</a>
+            </option>
+            <option value="http://www.momentum-biking.com/">
+              <a href="http://www.momentum-biking.com/">莫 曼 顿</a>
+            </option>
+            <option value="http://giant-cycling-lifestyle.com/">
+              <a href="http://giant-cycling-lifestyle.com/">基 金 会</a>
+            </option>
+            <option value="http://www.giantcyclingworld.com/web/travel.php">
+              <a href="http://www.giantcyclingworld.com/web/travel.php">台湾捷安特旅行社</a>
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="bottom_bottom">
+      <div class="center">
+        <div class="bottom_bleft">
+          <div class="bottom_bleft_img">
+            <img src="images/bass/bottom_logo.png" alt="">
+            <img src="images/bass/bottom.png" alt="">
+          </div>
+          <div class="bottom_shuoming">
+            <p>2016捷安特官网 本站图文是捷安特旅行社版权所有盗用必究</p>
+            <p>服务时间：周一~周五 09:00am ~ 18:00pm</p>
+          </div>
+        </div>
+        <div class="bottom_bright">
+          <p><a href="javascript:;">捷安特旅行社股份有限公司</a> | <a href="http://www.miibeian.gov.cn" target="_blank">苏ICP备06007520号-8</a></p>
+          <p>江苏省昆山市经济开发区洪湖路889号</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bottom end -->
+  <script src="lib/js/jquery-1.10.1.min.js"></script>
+  <script src="lib/js/bootstrap.min.js"></script>
+  <script>
+    $("#m_headbtn").click(function () {
+      $(".m_bass_nav").slideToggle("slow");
+    });
+
+    $("#forget_zhanghao_btn").click(function () {
+      $($(".forget_con")[1]).css("display","inline-block");
+      $($(".forget_con")[1]).siblings().css("display","none");
+      for(var i = 0; i < $(".forget_nav_li").length ; i++) {
+        $(".forget_nav_li")[i].className = "forget_nav_li";
+      };
+      $(".forget_nav_li")[1].className = "forget_nav_li on";
+    });
+
+    $("#forget_yanzheng_btn").click(function () {
+      $($(".forget_con")[2]).css("display","inline-block");
+      $($(".forget_con")[2]).siblings().css("display","none");
+      for(var i = 0; i < $(".forget_nav_li").length ; i++) {
+        $(".forget_nav_li")[i].className = "forget_nav_li";
+      };
+      $(".forget_nav_li")[2].className = "forget_nav_li on";
+    });
+
+    var tms = [];
+    var second = [];
+    function takeCount() {
+      setTimeout("takeCount()", 1000);
+      for (var i = 0, j = tms.length; i < j; i++) {
+        tms[i] -= 1000;
+        var seconds = Math.floor(tms[i] / 1000) % 60;
+
+        if (seconds < 0){
+          seconds = 0;
+        }else if (seconds>0&&seconds<10) {
+          seconds = "0" + seconds;
+        } else {
+          seconds = seconds;
+        }
+        document.getElementById(second[i]).innerHTML = seconds;
+      }
+    }
+    setTimeout("takeCount()", 1000);
+    tms[tms.length] = "60000";
+    second[second.length] = "s1";
+
+    $("#faduanxin").click(function () {
+      $(".t_mask").css("display","block");
+    });
+
+    $(".message_close").click(function () {
+      $(".t_mask").css("display","none");
+    });
+  $(function(){
+    $('.bottom_select').change(function(e){
+      if($('.bottom_select option:selected').val() != 0) {
+        window.open($('.bottom_select option:selected').val());
+      }
+      /*console.log($('.bottom_select option:selected').val());*/
+    })
+  });
+  </script>
+</body>
+</html>

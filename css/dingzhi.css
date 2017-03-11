@@ -1,0 +1,489 @@
+.dingzhi {
+    display: inline-block;
+    width: 100%;
+    background: url(../images/index/bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.dingzhi_content {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0px 0px 0px #fff, 0px 0px 0px #fff, 0px 0px 0px #fff, 0 2px 5px #888;
+    padding: 30px 5%;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.dingzhi_content_tle {
+    display: inline-block;
+    border-bottom: 1px solid #dedede;
+    width: 100%;
+    font-size: 16px;
+    color: #7b7b7b;
+    padding: 0 4% 10px;
+    box-sizing: border-box;
+}
+
+.dingzhi_content_tle b {
+    font-size: 14px;
+    color: #000;
+}
+
+.dz_content {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 4%;
+}
+
+.dz_jiben {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dz_jiben_left {
+    display: inline-block;
+    float: left;
+    width: 10%;
+}
+
+.dz_jiben_right {
+    display: inline-block;
+    float: left;
+    width: 90%;
+}
+
+.dz_jiben_name {
+    width: 30%;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 5%;
+}
+
+.dz_jiben_zhengjian {
+    width: 60%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.dz_jiben_input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.dz_zhengjian_input {
+    width: 45%;
+    height: 30px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.dz_zhengjian_sel {
+    width: 45%;
+    height: 30px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    outline: none;
+}
+
+.dz_jiben_phone {
+    width: 30%;
+    margin-right: 5%;
+    float: left;
+}
+
+.dz_jiben_email {
+    width: 30%;
+    float: left;
+}
+
+.dz_xuqiu {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.dz_xuqiu_tel {
+    width: 100%;
+}
+
+.dz_xuqiutle_input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.dz_xuqiu_loadphoto {
+    width: 65px;
+    height: 65px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.dz_xuqiu_photo {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+
+.dz_xuqiu_photo {
+    width: 100%;
+    height: 100%;
+}
+
+.dz_xuqiu_photobtn {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: alpha(opacity:0);
+    opacity: 0;
+}
+
+.dz_xuqiu_jianjie {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dz_xuqiu_jianjietext {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding-left: 5px;
+    outline: none;
+    padding: 5px;
+}
+
+.dz_xuqiu_money {
+    display: inline-block;
+    width: 100%;
+}
+
+.dz_xuqiu_moneyinput {
+    width: 40%;
+    height: 30px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding-left: 5px;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dz_xuqiu_zy,
+.dz_xuqiu_tz,
+.dz_xuqiu_xx {
+    width: 50px;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.dz_xuqiu_zy span {
+    font-weight: normal;
+    color: #fca904;
+}
+
+.dz_xuqiu_tz span {
+    font-weight: normal;
+    color: #c9161e;
+}
+
+.dz_xuqiu_xx span {
+    font-weight: normal;
+    color: #8bbd68;
+}
+
+.dz_xuqiu_level {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dz_xuqiu_level_radio {
+    margin: 0px 3px 0px 5px;
+    display: none;
+}
+
+.dz_xuqiu_level label {
+    padding-left: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 12px;
+    background: url(../images/index/dingzhibtn1.png) no-repeat left center;
+}
+
+.dz_xuqiu_level label.checked {
+    background: url(../images/index/dingzhibtn2.png) no-repeat left center;
+}
+
+.dz_xuqiu_licheng {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dz_xuqiu_lichengsel {
+    width: 30%;
+    margin-right: 3%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #dedede;
+    padding-left: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.dz_xuqiu_lichenginput {
+    width: 20%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #dedede;
+    padding-left: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.dz_xuqiu_licheng_date {
+    width: 30%;
+    height: 30px;
+    margin-right: 3%;
+    float: left;
+}
+
+.xuqiu_licheng_date_input {
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    border: 1px solid #dedede;
+    padding-left: 5px;
+    outline: none;
+}
+
+.dz_xuqiu_luxian {
+    width: 100%;
+}
+
+.dz_xuqiu_luxiantle {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.dz_xuqiu_luxian_content {
+    width: 100%;
+    position: relative;
+}
+
+.xuqiu_luxian_shuru {
+    width: 60%;
+    height: 30px;
+    margin-right: 5%;
+    border-radius: 2px;
+    border: 1px solid #dedede;
+    padding-left: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.xuqiu_luxian_juli {
+    width: 30%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #dedede;
+    padding-left: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.xuqiu_luxian_shuoming {
+    width: 100%;
+    height: 200px;
+    border-radius: 2px;
+    border: 1px solid #dedede;
+    padding: 5px;
+    outline: none;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.xuqiu_luxian_food {
+    width: 25%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #dedede;
+    padding-left: 5px;
+    outline: none;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+
+.xuqiu_luxian_didian {
+    width: 40%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #dedede;
+    padding-left: 5px;
+    outline: none;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+
+.dz_xuqiu_luxian_add {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dz_xuqiu_luxian_add a {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    background: #397af2;
+    line-height: 30px;
+    box-shadow: 2px 2px 5px #666;
+    border-radius: 2px;
+}
+
+.dz_teshu {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.dz_teshu_tel {
+    display: inline-block;
+    width: 10%;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.dz_teshu_text {
+    resize: none;
+    float: left;
+    width: 90%;
+    height: 200px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #dedede;
+    outline: none;
+}
+
+.dz_tijiao {
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dz_tijiao_a {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    background: #397af2;
+    line-height: 30px;
+    box-shadow: 2px 2px 5px #666;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.dz_tijiao_tishi {
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+}
+
+@media (max-width: 900px) {
+    .dz_jiben_left,
+    .dz_teshu_tel {
+        width: 100%;
+        margin: 0px 0 10px;
+    }
+
+    .dz_jiben_right,
+    .dz_teshu_text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px) {
+    .dz_jiben_name,
+    .dz_jiben_zhengjian,
+    .dz_zhengjian_input {
+        width: 100%;
+    }
+
+    .dz_jiben_phone,
+    .dz_jiben_email,
+    .dz_zhengjian_sel {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .dz_xuqiu_lichengsel,
+    .dz_xuqiu_lichenginput,
+    .dz_xuqiu_licheng_date {
+        width: 100%;
+    }
+
+    .dz_xuqiu_licheng_date {
+        margin-bottom: 10px;
+    }
+
+    .xuqiu_luxian_shuru,
+    .xuqiu_luxian_juli {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .xuqiu_luxian_food,
+    .xuqiu_luxian_didian {
+        width: 100%;
+    }
+}
+
+/*删除按钮*/
+#delete {
+    background: red;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    width: 40px;
+    height: 28px;
+    cursor: pointer;
+    position: absolute;
+    right: -35px;
+    top:0;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    display: none;
+}
+
+/*.dz_xuqiu_luxiancon{position: relative;}*/

@@ -1,0 +1,381 @@
+.hd_xiangqing {
+  display: inline-block;
+  width: 100%;
+  background: url(../images/index/bg.png) no-repeat center center;
+  background-size: cover;
+}
+
+.hd_xiangqing_content {
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 10px #999;
+  box-shadow: border-box;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.hd_xiangqing_banner {
+  width: 100%;
+  height: 500px;
+}
+
+.hd_xiangqing_banner .swiper-wrapper,
+.hd_xiangqing_banner .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.index_bar {
+  width: 100%;
+  height: 100%;
+}
+
+.hd_xiangqing_tel {
+  display:inline-block;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.hd_xiangqing_telimg {
+  display: inline-block;
+  width: 60px;
+  margin-bottom: 5px;
+  float: left;
+  text-align: center;
+}
+
+.hd_xiangqing_telimg img {
+
+}
+
+.hd_xiangqing_telright {
+  float: left;
+}
+
+.hd_xiangqing_telh3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.hd_xiangqing_telp {
+  line-height: 30px;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.hd_xiangqing_jichu {
+  display: inline-block;
+  width: 100%;
+}
+
+.hd_xiangqing_jichutop {
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid #dedede;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.hd_xiangqing_jichutopimg {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  top: -13px;
+  text-align: center;
+  background: #fff;
+}
+
+.hd_xiangqing_date,
+.hd_xiangqing_money {
+  display:inline-block;
+  float: left;
+  width: 30%;
+  height: 90px;
+  font-size: 12px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  line-height: 30px;
+}
+
+.hd_xiangqing_datetel,
+.hd_xiangqing_moneytel {
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+}
+
+.hd_xiangqing_begin,
+.hd_xiangqing_end,
+.hd_xiangqing_dan,
+.hd_xiangqing_shuang {
+  display: block;
+  padding-left: 5px;
+}
+
+.hd_xiangqing_baoming {
+  display: inline-block;
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+
+.hd_xiangqing_baoming_ren {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+}
+
+.hd_xiangqing_baoming_ren b {
+  color: #397af2;
+}
+
+.hd_xiangqing_baoming_dan,
+.hd_xiangqing_baoming_tuan {
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  line-height: 25px;
+  margin: 10px 10px 0;
+  box-shadow: 0px 0px 5px #888;
+}
+
+.hd_xiangqing_baoming_tuan {
+  margin-right: 0;
+}
+
+.hd_xiangqing_baoming_dan a,
+.hd_xiangqing_baoming_tuan a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.hd_xiangqing_baoming_dan a {
+  background: #397af2;
+  color: #fff;
+  text-align: center;
+}
+
+.hd_xiangqing_baoming_tuan a {
+  background: #f5f8fe;
+  color: #000;
+  text-align: center;
+}
+
+.hd_xiangqing_main {
+  width: 100%;
+}
+
+.hd_xiangqing_maintel {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.hd_xiangqing_mainh3 {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+  font-size: 16px;
+  color: #7b7b7b;
+  font-weight: normal;
+  text-align: left;
+  line-height: 30px;
+}
+
+.hd_xiangqing_day {
+  display: inline-block;
+  width: 100%;
+}
+
+.hd_xiangqing_day_top {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+.hd_xiangqing_day_topimg {
+  position: absolute;
+  width: 62px;
+  top: 10px;
+  left: 0;
+}
+
+.hd_day_topyantu {
+  display: inline-block;
+  width: 100%;
+}
+
+.hd_day_topyantu_top {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  padding-left: 70px;
+  margin-top: 20px;
+}
+
+.hd_topyantu_topb {
+  font-size: 16px;
+  float: left;
+  line-height: 35px;
+  margin: 0 5px;
+}
+
+.hd_topyantu_topspan {
+  display: inline-block;
+  width: 200px;
+  height: 100%;
+  float: left;
+  font-size: 12px;
+  background: url(../images/hd_xiangqing/bikeline.png) no-repeat center top;
+  background-size: contain;
+  box-sizing: border-box;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.hd_day_topyantu_b {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 70px;
+  font-size: 12px;
+}
+
+.hd_xiangqing_day_con {
+  width: 100%;
+  padding: 20px 5%;
+  font-size: 12px;
+}
+
+.hd_xiangqing_day_didian {
+  display: inline-block;
+  width: 100%;
+}
+
+.hd_xiangqing_day_con p {
+  margin-top: 10px;
+}
+
+.hd_xiangqing_day_bottom {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 12px;
+  background: #397af2;
+  padding: 0 5%;
+}
+
+.hd_yongcan {
+  height: 100%;
+  float: left;
+}
+
+.hd_yongcan_img {
+  margin-right: 10px;
+}
+
+.hd_zhusu {
+  float: right;
+}
+
+.hd_xiangqing_zhuyi {
+  width: 100%;
+}
+
+.hd_xiangqing_zhuyitel {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.hd_xiangqing_zhuyih3 {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+  font-size: 16px;
+  color: #7b7b7b;
+  font-weight: normal;
+  text-align: left;
+  line-height: 30px;
+}
+
+.hd_xiangqing_zhuyimain {
+  width: 100%;
+  padding: 10px 5%;
+}
+
+.hd_xiangqing_zhuyicon {
+  font-size: 14px;
+  color: #397af2;
+}
+
+.hd_zhuyicon_tel {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  line-height: 30px;
+}
+
+.hd_zhuyicon_main {
+  padding: 0 2%;
+  font-size: 12px;
+}
+
+.hd_zhuyicon_main p {
+  line-height: 20px;
+}
+
+
+@media (max-width: 720px) {
+  .hd_xiangqing_banner {
+    width: 100%;
+    height: 200px;
+  }
+
+  .hd_xiangqing_date,
+  .hd_xiangqing_money,
+  .hd_xiangqing_baoming {
+    width: 100%;
+  }
+
+  .hd_xiangqing_baoming {
+    margin-top: 0;
+  }
+
+  .hd_xiangqing_baoming_dan {
+    margin: 10px 5px 0;
+  }
+
+  .hd_xiangqing_day_bottom {
+    height: auto;
+  }
+
+  .hd_yongcan,
+  .hd_zhusu {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 460px) {
+  .hd_xiangqing_day_topimg {
+    width: 40px;
+  }
+  .hd_day_topyantu_top {
+    padding-left: 50px;
+  }
+  .hd_topyantu_topspan {
+    width: 120px;
+    background: url(../images/hd_xiangqing/bikeline.png) no-repeat center 8px;
+    background-size: contain;
+  }
+}

@@ -1,0 +1,300 @@
+.forget {
+  width: 100%;
+  min-height: 600px;
+  background: url(../images/zhuce/bg.png) no-repeat center center;
+  background-size: cover;
+  padding: 55px 0;
+}
+
+.forget_center {
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 712px;
+}
+
+.forget_content {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 460px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.forget_nav {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  font-size: 12px;
+  margin: 70px 0 60px;
+  padding: 0 4%;
+}
+
+.forget_nav_ul {
+  width: 100%;
+  height: 100%;
+}
+
+.forget_nav_li {
+  width: 20%;
+  float: left;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+}
+
+.forget_nav_li.on {
+  font-weight: bold;
+}
+
+.forget_nav_img {
+  width: 20%;
+  float: left;
+  height: 100%;
+  text-align: left;
+}
+
+.forget_nav_img img {
+  height: 1px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.forget_main {
+  display: inline-block;
+  width: 100%;
+}
+
+.forget_con {
+  display: inline-block;
+  width: 100%;
+}
+
+/* zhanghao start */
+
+.forget_zhanghao {
+  width: 340px;
+  height: 35px;
+  margin: 0 auto;
+  font-size: 12px;
+  margin-bottom: 80px;
+}
+
+.forget_zhanghao_input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding-left: 5px;
+  border-radius: 4px;
+  border: none;
+}
+
+/* zhanghao end */
+
+/* yanzheng start */
+
+.forget_yanzheng {
+  width: 340px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.forget_yz {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+
+.forget_yz_tel {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  float: left;
+  color: #fff;
+}
+
+.forget_zy_zhanghao {
+  display: inline-block;
+  width: 65%;
+  color: #fff;
+  float: right;
+}
+
+.forget_duanxin {
+  float: left;
+  display: inline-block;
+  height: 35px;
+  width: 80px;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: #0062b8;
+  background: #fff;
+  text-align: center;
+}
+
+.bmzf_liji_time {
+  color: #fff;
+}
+
+.message_fasong {
+  width: 300px;
+  height: 110px;
+  margin-left: -150px;
+  margin-top: -55px;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.duanxin_fasong {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #0062b8;
+}
+
+.message_close {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  background: url(../images/forget/btnbg.png) repeat-x center center;
+  border-radius: 4px;
+}
+
+/* yanzheng end */
+
+/* chongzhi start */
+
+.forget_chongzhi {
+  width: 340px;
+  margin: 0 auto;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.chongzhi_mima {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+
+.chongzhi_mimatel {
+  display:inline-block;
+  width: 30%;
+  text-align: right;
+  float: left;
+  color: #fff;
+}
+
+.chongzhi_mima_input {
+  width: 65%;
+  height: 35px;
+  outline: none;
+  padding-left: 5px;
+  border-radius: 4px;
+  border: none;
+  float: right;
+}
+
+.chongzhi_yanzheng {
+  width: 65%;
+  float: right;
+}
+
+.chongzhi_duanxin {
+  margin-bottom: 50px;
+}
+
+.chongzhi_mima_yzm {
+  width: 100px;
+  height: 35px;
+  outline: none;
+  padding-left: 5px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 10px;
+  float: left;
+}
+
+.chongzhi_mima_img {
+  float: left;
+  height: 35px;
+  width: 80px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.chongzhi_mima_a {
+  float: left;
+}
+
+/* chongzhi end */
+
+.forget_zhanghao_btn {
+  width: 142px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.forget_zhanghao_btn a {
+  display: inline-block;
+  width: 142px;
+  height: 100%;
+  background: url(../images/forget/btnbg.png) repeat-x center center;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+
+  .forget_center {
+    width: 100%;
+  }
+  .forget_content {
+    width: 95%;
+  }
+  .forget_nav {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .forget_nav_li {
+    width: 25%;
+  }
+  .forget_nav_img {
+    width: 12%;
+  }
+
+  .forget_zhanghao,
+  .forget_yanzheng,
+  .forget_chongzhi {
+    width: 90%;
+  }
+
+  .chongzhi_mimatel {
+    width: 100%;
+    text-align: left;
+  }
+
+  .chongzhi_mima_input {
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width: 370px) {
+  .forget_yz_tel {
+    text-align: left;
+  }
+  .chongzhi_yanzheng {
+    width: 100%;
+  }
+}

@@ -1,0 +1,153 @@
+.login {
+  width: 100%;
+  min-height: 600px;
+  background: url(../images/zhuce/bg.png) no-repeat center center;
+  background-size: cover;
+  padding: 55px 0;
+}
+
+.login_center {
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 712px;
+}
+
+.login_shuoming {
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.login_content {
+  margin: 0 auto;
+  width: 100%;
+  height: 460px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.login_content_center {
+  width: 320px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.login_top {
+  display: inline-block;
+  width: 100%;
+  padding: 45px 0;
+  text-align: center;
+}
+
+.login_img {
+  width: 98px;
+  height: 98px;
+}
+
+.login_gexiang,
+.login_gexiang_b,
+.login_gexiang_input {
+  display:inline-block;
+  width: 100%;
+}
+
+.login_gexiang {
+  box-sizing: border-box;
+  padding: 0 1%;
+}
+
+.login_gexiang_b {
+  font-size: 12px;
+  line-height: 30px;
+  color: #ff9000;
+  box-sizing: border-box;
+  padding-left: 5px;
+}
+
+.login_gexiang_input {
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #cfcfcf;
+  padding-left: 5px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.login_forget {
+  display: inline-block;
+  width: 100%;
+  font-size: 12px;
+  color: #00bffb;
+  padding-left: 5px;
+  line-height: 30px;
+  box-sizing: border-box;
+}
+
+.login_btn {
+  width: 207px;
+  height: 25px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: url(../images/login/loginbg.png) repeat-x center center;
+  margin-top: 15px;
+}
+
+.login_btna {
+  display:inline-block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 25px;
+}
+
+.login_bottom {
+  display: inline-block;
+  width: 100%;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.login_bottoma {
+  color: #00bffb;
+  font-size: 12px;
+}
+
+.login_no {
+  display: inline-block;
+  width: 120%;
+  color: #fff;
+  font-size: 14px;
+  text-align: right;
+}
+
+
+@media (max-width: 938px) {
+  .login {
+    padding-top: 20px;
+    min-height: auto;
+  }
+  .login_center {
+    width: 100%;
+  }
+  .login_content {
+    width: 95%;
+  }
+  .login_content_center {
+    width: 100%;
+  }
+  .login_no {
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+}

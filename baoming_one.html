@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>捷安特旅行社</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/dateSelect/dateSelect.css">
+  <link rel="stylesheet" href="css/bass.css">
+  <link rel="stylesheet" href="css/baoming.css">
+</head>
+<body>
+  <!-- header start -->
+  <div class="bass_head">
+    <div class="center">
+      <button type="button" id="m_headbtn" class="m_headbtn btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-list"></span>
+      </button>
+      <button type="button" id="m_nav_btn" class="m_navbtn btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-remove"></span>
+      </button>
+      <a class="bass_head_a" href="index.html">
+        <img class="bass_headlogo" src="images/bass/top_logo.png" alt="">
+      </a>
+      <span class="m_login">
+        <a class="m_login_btn" href="login.html">登录</a>
+      </span>
+    </div>
+  </div>
+  <!-- header end -->
+  <!-- nav start -->
+  <div class="bass_nav">
+    <div class="nav_center">
+      <ul class="nav_ul">
+        <li class="nav_li">
+          <a class="nav_li_a" href="index.html">首页</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a on" href="xingcheng.html">旅游行程</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a" href="dingzhi.html">定制行程</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a" href="zixun_dt.html">动态资讯</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a" href="about.html">关于我们</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a" href="huiyuan.html">会员中心</a>
+        </li>
+        <li class="nav_li">
+          <a class="nav_li_a" href="http://www.giant.com.cn/">giant官网</a>
+        </li>
+      </ul>
+      <span class="nav_login">
+        <a class="nav_login_btn" href="login.html">登录</a>
+      </span>
+    </div>
+  </div>
+  <div class="m_bass_nav">
+    <ul class="m_bass_nav_ul list-group">
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="index.html">首页</a>
+      </li>
+      <li class="m_bass_nav_li on list-group-item">
+        <a class="m_bass_nav_lia" href="xingcheng.html">旅游行程</a>
+      </li>
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="dingzhi.html">定制行程</a>
+      </li>
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="zixun_dt.html">动态资讯</a>
+      </li>
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="about.html">关于我们</a>
+      </li>
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="huiyuan.html">会员中心</a>
+      </li>
+      <li class="m_bass_nav_li list-group-item">
+        <a class="m_bass_nav_lia" href="http://www.giant.com.cn/">giant官网</a>
+      </li>
+    </ul>
+  </div>
+  <!-- nav end -->
+
+  <div class="baoming">
+    <div class="center">
+      <span class="baoming_top">捷安特旅行社线上报名</span>
+      <div class="baoming_nav">
+        <ul class="baoming_nav_ul">
+          <li class="baoming_nav_li">
+            <span class="baoming_nav_tel">1、订购行程</span>
+          </li>
+          <li class="baoming_nav_img">
+            <img src="images/baoming/navline.png" />
+          </li>
+          <li class="baoming_nav_li on">
+            <span class="baoming_nav_tel">2、填写资料</span>
+          </li>
+          <li class="baoming_nav_img">
+            <img src="images/baoming/navline.png" />
+          </li>
+          <li class="baoming_nav_li">
+            <span class="baoming_nav_tel">3、费用支付</span>
+          </li>
+          <li class="baoming_nav_img">
+            <img src="images/baoming/navline.png" />
+          </li>
+          <li class="baoming_nav_li">
+            <span class="baoming_nav_tel">4、报名成功</span>
+          </li>
+        </ul>
+      </div>
+      <div class="baoming_main">
+        <div class="baoming_content" style="display: none;"></div>
+        <div class="baoming_content" style="display: inline-block;">
+          <div class="bm_ziliao">
+            <div class="bm_ziliao_huodong">
+              <span class="bmzl_hdtop">报名活动</span>
+              <div class="bmzl_hdbottom">
+                <span class="bmzl_hdtel">捷安特二十周年纪念</span>
+                <span class="bmzl_hddate">出发日：<b>2016/11/09</b></span>
+                <span class="bmzl_hddidian">出发地：<b>北京颐和园</b></span>
+                <span class="bmzl_hddidian">总里程：<b>299km</b></span>
+                <a class="bmzl_hda" href="javascript:;">查看详情</a>
+              </div>
+            </div>
+            <div class="bm_ziliao_geren">
+              <span class="bmzl_grtop">
+                个人资料<b class="bmzl_grtop_b">（带*号的为必填项）</b>
+                <a class="bmzl_grtop_a" href="javascript:;">至少一名玩家</a>
+              </span>
+              <div class="bmzl_geren">
+                <div class="bmzl_gr1">
+                  <input class="bmzl_geren_input" type="text" placeholder="*姓名" />
+                  <div class="bmzl_geren_sex bmzl_radios">
+                    <input class="bmzl_geren_radio bmzl_radio" type="radio" id="nan" checked="checked" name="sex" value="nan">
+                    <label class="checked" name="nan" for="nan">男</label>
+                    <input class="bmzl_geren_radio bmzl_radio" type="radio" id="nv" name="sex" value="nv">
+                    <label name="nv" for="nv">女</label>
+                  </div>
+                  <div class="bmzl_gr_diyu">
+                    <select class="bmzl_geren_select" name="" id="">
+                      <option value="1">省</option>
+                      <option value="2">北京</option>
+                      <option value="3">河北</option>
+                      <option value="4">河南</option>
+                    </select>
+                    <select class="bmzl_geren_select" name="" id="">
+                      <option value="1">市</option>
+                      <option value="2">北京</option>
+                      <option value="3">张家口</option>
+                      <option value="4">石家庄</option>
+                    </select>
+                    <select class="bmzl_geren_select" name="" id="">
+                      <option value="1">区</option>
+                      <option value="2">海淀区</option>
+                      <option value="3">朝阳区</option>
+                      <option value="4">昌平区</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="bmzl_gr2">
+                  <div class="bmzl_gr_idcard">
+                    <select class="bmzl_geren_idsel" name="" id="">
+                      <option value="1">请选择证件类型</option>
+                      <option value="2">身份证</option>
+                      <option value="3">党员证</option>
+                      <option value="4">学生证</option>
+                    </select>
+                    <input class="bmzl_geren_input" type="text" />
+                  </div>
+                </div>
+                <div class="bmzl_gr3">
+                  <input class="bmzl_geren_input" type="text" placeholder="生日" />
+                  <input class="bmzl_geren_input" type="text" placeholder="*身高" />
+                  <input class="bmzl_geren_input" type="text" placeholder="*体重" />
+                </div>
+                <div class="bmzl_gr4">
+                  <input class="bmzl_geren_input" type="text" placeholder="*手机号码" />
+                  <input class="bmzl_geren_input" type="text" placeholder="固定电话" />
+                  <input class="bmzl_geren_input" type="text" placeholder="*邮箱" />
+                </div>
+                <div class="bmzl_gr5">
+                  <input class="bmzl_geren_input" type="text" placeholder="*紧急联络人姓名" />
+                  <input class="bmzl_geren_input" type="text" placeholder="*关系" />
+                  <input class="bmzl_geren_input" type="text" placeholder="*电话" />
+                </div>
+              </div>
+            </div>
+            <div class="bm_ziliao_xuqiu">
+              <span class="bmzl_hdtop">需求资料</span>
+              <div class="bmzl_xuqiu">
+                <div class="bmzl_xq_room">
+                  <span class="bmzl_telspan">住房类型：</span>
+                  <div class="bmzl_xq_roomcon">
+                    <div class="bmzl_radios bmzl_xq_sexradios">
+                      <input class="bmzl_radio
+                      bmzl_xq_sexradio" type="radio" id="single" checked name="room" value="single">
+                      <label class="checked" name="single" for="single">单人房 <b>388</b>元/人</label>
+                      <input class="bmzl_radio" type="radio" id="double" name="room" value="double">
+                      <label name="double" for="double">双人房 <b>288</b>元/人</label>
+                    </div>
+                    <input class="bmzl_room_input" type="text" placeholder="*一张大床或两张小床，及同房者姓名" />
+                  </div>
+                </div>
+                <div class="bmzl_xq_bingli">
+                  <span class="bmzl_telspan">特殊病例：</span>
+                  <div class="bmzl_xq_roomcon">
+                    <div class="bmzl_radios bmzl_xq_bingliradios">
+                      <input class="bmzl_radio bmzl_xq_bingliradio" type="radio" id="wubingli" checked name="bingli" value="wubingli">
+                      <label class="checked" name="wubingli" for="wubingli">无</label>
+                      <input class="bmzl_radio bmzl_xq_bingliradio" type="radio" id="youbingli" name="bingli" value="youbingli">
+                      <label name="youbingli" for="youbingli">有</label>
+                    </div>
+                    <input class="bmzl_bingli_input" type="text" placeholder="*请详述病例" />
+                  </div>
+                </div>
+                <div class="bmzl_xq_zulin">
+                  <span class="bmzl_telspan">单车租赁：</span>
+                  <div class="bmzl_xq_roomcon">
+                    <div class="bmzl_radios bmzl_xq_zulinradios">
+                      <input class="bmzl_radio bmzl_xq_zulinradio" type="radio" id="xuzulin" name="zulin" value="xuzulin">
+                      <label name="xuzulin" for="xuzulin">需要</label>
+                      <input class="bmzl_radio bmzl_xq_zulinradio" type="radio" id="buxuzu" checked name="zulin" value="buxuzu">
+                      <label class="checked" name="buxuzu" for="buxuzu">不需要</label>
+                    </div>
+                    <div class="bmzl_xq_zulinche">
+                      <select class="bmzl_xq_zulinchesel" name="" id="">
+                        <option value="1">请选择车型</option>
+                        <option value="2">捷安特 XTC820 200元/日</option>
+                        <option value="3">捷安特 XTC820 300元/日</option>
+                        <option value="4">捷安特 XTC820 400元/日</option>
+                      </select>
+                    </div>
+                    <textarea class="bmzl_xq_qita" placeholder="其他备注说明"></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bm_ziliao_fapiao">
+              <span class="bmzl_hdtop">发票获取</span>
+              <div class="bmzl_fapiao">
+                <span class="bmzl_telspan">获取发票：</span>
+                <div class="bmzl_xq_roomcon">
+                  <div class="bmzl_radios bmzl_xq_fpradios">
+                    <input class="bmzl_radio bmzl_xq_fpradio" type="radio" id="yaofp" name="fapiao" value="yaofp">
+                    <label name="yaofp" for="yaofp">需要</label>
+                    <input class="bmzl_radio bmzl_xq_fpradio" type="radio" id="bufp" checked name="fapiao" value="bufp">
+                    <label class="checked" name="bufp" for="bufp">不需要</label>
+                  </div>
+                  <input class="bmzl_fapiao_input" type="text" placeholder="*若需要公司发票，在此填写发票抬头" />
+                </div>
+              </div>
+            </div>
+            <div class="bm_ziliao_money">
+              <span class="bmzl_grtop">
+                订单金额
+                <a class="bm_ziliao_price" href="javascript:;">金额<b>6500</b></a>
+              </span>
+              <div class="bm_ziliao_btns">
+                <a class="bm_ziliao_btn_prev" href="javascript:;">返回</a>
+                <a class="bm_ziliao_btn_next" href="javascript:;">下一页</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="baoming_content" style="display: none;">
+          <div class="bm_zhufu">
+            <div class="bm_zhufu_dingdan">
+              <div class="bmzf_ddtel">
+                <span class="bmzf_ddnum">订单号码：<b>333333333333</b></span>
+                <span class="bmzf_ddzt">待支付</span>
+              </div>
+              <div class="bmzf_ddcon">
+                <span class="bmzf_ddcon_span1">挑战公路之巅 二十周年纪念</span>
+                <div class="bmzf_ddcon_div">
+                  <span>出发日：<b>2016/11/09</b></span>
+                  <span>出发地：<b>北京颐和家园</b></span>
+                  <span>总里程：<b>299</b></span>
+                </div>
+                <span class="bmzf_ddcon_span1">时间：<b>2016/11/09</b></span>
+              </div>
+              <div class="bmzf_ddbottom">
+                <span class="bmzf_ddmoney">总额<b>3000</b></span>
+                <span class="bmzf_ddbottombg">
+                  <img class="bmzf_ddbottomimg" src="images/baoming/sanjiao.png" />
+                  （提示：订单生成后，保留30分钟，请尽快支付）
+                </span>
+              </div>
+            </div>
+            <div class="bm_zhufu_fukuan">
+              <span class="bmzf_fktel">请选择付款方式</span>
+              <div class="bmzf_con">
+                <div class="bmzf_btns">
+                  <a class="bmzf_btn_online" href="javascript:;">在线支付</a>
+                  <a class="bmzf_btn_underline" href="javascript:;">线下汇款</a>
+                </div>
+                <div class="bmzf_fangshi bmzl_radios">
+                  <input class="bmzf_fangshi_radio bmzl_radio" type="radio" id="wechat" checked="checked" name="zffs" value="wechat">
+                  <label class="checked" name="wechat" for="wechat">微信支付</label>
+                  <input class="bmzf_fangshi_radio bmzl_radio" type="radio" id="zfb" name="zffs" value="zfb">
+                  <label name="zfb" for="zfb">支付宝支付</label>
+                  <input class="bmzf_fangshi_radio bmzl_radio" type="radio" id="yinlian" name="zffs" value="yinlian">
+                  <label name="yinlian" for="yinlian">银联支付</label>
+                </div>
+              </div>
+              <div class="bmzf_liji">
+                <a class="bmzf_liji_a" href="javascript:;"></a>
+                <b>立即支付</b>
+                <div class="bmzf_liji_time">
+                  <span id="m1">30</span>
+                  <span>:</span>
+                  <span id="s1">00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="baoming_content" style="display: none;">
+          <div class="bm_chenggong">
+            报名成功！
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- bottom start -->
+  <div class="index_bottom">
+    <div class="bottom_top">
+      <div class="center">
+        <div class="bottom_topleft">
+          <a class="bottom_topleft_a" href="javascript:;">@捷安特（昆山）有限公司</a>
+          <span>预约热线：0512-57022237</span>
+        </div>
+        <div class="bottom_topright">
+          <span class="bottom_topright_span">捷安特相关站点链接：</span>
+          <select class="bottom_select" name="" id="">
+            <option value="0">
+              <a href="javascript:;">网站链接</a>
+            </option>
+            <option value="http://www.giant.com.cn/">
+              <a href="http://www.giant.com.cn/">捷安特官网</a>
+            </option>
+            <option value="http://www.livgiant.com.cn/index.html">
+              <a href="http://www.livgiant.com.cn/index.html">Liv/giant</a>
+            </option>
+            <option value="http://www.giantev.com.cn/zh-EV/">
+              <a href="http://www.giantev.com.cn/zh-EV/">捷安特.电动车</a>
+            </option>
+            <option value="http://www.momentum-biking.com/">
+              <a href="http://www.momentum-biking.com/">莫 曼 顿</a>
+            </option>
+            <option value="http://giant-cycling-lifestyle.com/">
+              <a href="http://giant-cycling-lifestyle.com/">基 金 会</a>
+            </option>
+            <option value="http://www.giantcyclingworld.com/web/travel.php">
+              <a href="http://www.giantcyclingworld.com/web/travel.php">台湾捷安特旅行社</a>
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="bottom_bottom">
+      <div class="center">
+        <div class="bottom_bleft">
+          <div class="bottom_bleft_img">
+            <img src="images/bass/bottom_logo.png" alt="">
+            <img src="images/bass/bottom.png" alt="">
+          </div>
+          <div class="bottom_shuoming">
+            <p>2016捷安特官网 本站图文是捷安特旅行社版权所有盗用必究</p>
+            <p>服务时间：周一~周五 09:00am ~ 18:00pm</p>
+          </div>
+        </div>
+        <div class="bottom_bright">
+          <p><a href="javascript:;">捷安特旅行社股份有限公司</a> | <a href="http://www.miibeian.gov.cn" target="_blank">苏ICP备06007520号-8</a></p>
+          <p>江苏省昆山市经济开发区洪湖路889号</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bottom end -->
+  <script src="lib/js/jquery-1.10.1.min.js"></script>
+  <script src="lib/js/bootstrap.min.js"></script>
+  <script>
+    $("#m_headbtn").click(function () {
+      $(".m_bass_nav").slideToggle("slow");
+    });
+
+    $(".bm_ziliao_btn_next").click(function () {
+      $($(".baoming_content")[2]).css("display","inline-block");
+      $($(".baoming_content")[2]).siblings().css("display","none");
+      for(var i = 0; i < $(".baoming_nav_li").length ; i++) {
+        $(".baoming_nav_li")[i].className = "baoming_nav_li";
+      };
+      $(".baoming_nav_li")[2].className = "baoming_nav_li on";
+    });
+
+    $(".bmzf_liji_a").click(function () {
+      $($(".baoming_content")[3]).css("display","inline-block");
+      $($(".baoming_content")[3]).siblings().css("display","none");
+      for(var i = 0; i < $(".baoming_nav_li").length ; i++) {
+        $(".baoming_nav_li")[i].className = "baoming_nav_li";
+      };
+      $(".baoming_nav_li")[3].className = "baoming_nav_li on";
+    });
+
+/*    $(".baoming_nav_li").click(function () {
+      for(var i = 0; i < $(".baoming_nav_li").length ; i++) {
+        $(".baoming_nav_li")[i].className = "baoming_nav_li";
+      }
+      this.className = "baoming_nav_li on";
+      var n = $(this).index();
+      var m = n/2;
+      $($(".baoming_content")[m]).css("display","inline-block");
+      $($(".baoming_content")[m]).siblings().css("display","none");
+    });*/
+
+    $(function() {
+      $('.bmzl_geren_sex label').click(function(){
+        var radioId = $(this).attr('name');
+        $('.bmzl_geren_sex label').removeAttr('class') && $(this).attr('class', 'checked');
+        $('.bmzl_geren_radio').removeAttr('checked') && $('#' + radioId).attr('checked', 'checked');
+      });
+
+      $('.bmzl_xq_sexradios label').click(function(){
+        var radioId = $(this).attr('name');
+        $('.bmzl_xq_sexradios label').removeAttr('class') && $(this).attr('class', 'checked');
+        $('.bmzl_xq_sexradio').removeAttr('checked') && $('#' + radioId).attr('checked', 'checked');
+
+        if ($('#double').attr('checked')) {
+          $(".bmzl_room_input").show();
+        } else {
+          $(".bmzl_room_input").hide();
+        };
+      });
+
+      $('.bmzl_xq_bingliradios label').click(function(){
+        var radioId = $(this).attr('name');
+        $('.bmzl_xq_bingliradios label').removeAttr('class') && $(this).attr('class', 'checked');
+        $('.bmzl_xq_bingliradio').removeAttr('checked') && $('#' + radioId).attr('checked', 'checked');
+        if ($('#youbingli').attr('checked')) {
+          $(".bmzl_bingli_input").show();
+        } else {
+          $(".bmzl_bingli_input").hide();
+        };
+      });
+
+      $('.bmzl_xq_zulinradios label').click(function(){
+        var radioId = $(this).attr('name');
+        $('.bmzl_xq_zulinradios label').removeAttr('class') && $(this).attr('class', 'checked');
+        $('.bmzl_xq_zulinradio').removeAttr('checked') && $('#' + radioId).attr('checked', 'checked');
+        if ($('#xuzulin').attr('checked')) {
+          $(".bmzl_xq_zulinche").show();
+        } else {
+          $(".bmzl_xq_zulinche").hide();
+        };
+      });
+
+      $('.bmzl_xq_fpradios label').click(function(){
+        var radioId = $(this).attr('name');
+        $('.bmzl_xq_fpradios label').removeAttr('class') && $(this).attr('class', 'checked');
+        $('.bmzl_xq_fpradio').removeAttr('checked') && $('#' + radioId).attr('checked', 'checked');
+        if ($('#yaofp').attr('checked')) {
+          $(".bmzl_fapiao_input").show();
+        } else {
+          $(".bmzl_fapiao_input").hide();
+        };
+      });
+
+      $('.bmzf_fangshi label').click(function(){
+        var radioId = $(this).attr('name');
+        $('.bmzf_fangshi label').removeAttr('class') && $(this).attr('class', 'checked');
+        $('.bmzf_fangshi_radio').removeAttr('checked') && $('#' + radioId).attr('checked', 'checked');
+      });
+
+    });
+
+    var tms = [];
+    var minute = [];
+    var second = [];
+    function takeCount() {
+      setTimeout("takeCount()", 1000);
+      for (var i = 0, j = tms.length; i < j; i++) {
+        tms[i] -= 1000;
+        var minutes = Math.floor(tms[i] / (1000 * 60)) % 60;
+        var seconds = Math.floor(tms[i] / 1000) % 60;
+
+        if (minutes < 0){
+          minutes = 0;
+        }else if (minutes>0&&minutes<10) {
+          minutes = "0" + minutes;
+        } else {
+          minutes = minutes;
+        }
+
+        if (seconds < 0){
+          seconds = 0;
+        }else if (seconds>0&&seconds<10) {
+          seconds = "0" + seconds;
+        } else {
+          seconds = seconds;
+        }
+        document.getElementById(minute[i]).innerHTML = minutes;
+        document.getElementById(second[i]).innerHTML = seconds;
+      }
+    }
+    setTimeout("takeCount()", 1000);
+    tms[tms.length] = "1800000";
+    minute[minute.length] = "m1";
+    second[second.length] = "s1";
+
+  $(function(){
+    $('.bottom_select').change(function(e){
+      if($('.bottom_select option:selected').val() != 0) {
+        window.open($('.bottom_select option:selected').val());
+      }
+      /*console.log($('.bottom_select option:selected').val());*/
+    })
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.xiangqing_dt {
+  display: inline-block;
+  width: 100%;
+  background: url(../images/index/bg.png) no-repeat center center;
+  background-size: cover;
+}
+
+.xiangqing_content {
+  margin-top: 10px;
+  display:inline-block;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 10px #999;
+  padding: 20px 0;
+}
+
+.xiangqing_dt_top {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.xiangqing_dt_topa {
+  color: #0062b8;
+  font-size: 16px;
+}
+
+.xiangqing_dt_bar {
+  display:inline-block;
+  width: 100%;
+}
+
+.xiangqing_bar_img {
+  width: 100%;
+  min-height: 100px;
+}
+
+.xiangqing_con {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 2%;
+}
+
+.xiangqing_con_tle {
+  display: inline-block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.xiangqing_con_p {
+  line-height: 30px;
+  font-size: 14px;
+  color:#6a6a6a;
+}

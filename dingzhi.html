@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>捷安特旅行社</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/dateSelect/dateSelect.css">
+    <link rel="stylesheet" href="css/bass.css">
+    <link rel="stylesheet" href="css/dingzhi.css">
+</head>
+<body>
+<!-- header start -->
+<div class="bass_head">
+    <div class="center">
+        <button type="button" id="m_headbtn" class="m_headbtn btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-list"></span>
+        </button>
+        <button type="button" id="m_nav_btn" class="m_navbtn btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-remove"></span>
+        </button>
+        <a class="bass_head_a" href="index.html">
+            <img class="bass_headlogo" src="images/bass/top_logo.png" alt="">
+        </a>
+        <span class="m_login">
+        <a class="m_login_btn" href="login.html">登录</a>
+      </span>
+    </div>
+</div>
+<!-- header end -->
+<!-- nav start -->
+<div class="bass_nav">
+    <div class="nav_center">
+        <ul class="nav_ul">
+            <li class="nav_li">
+                <a class="nav_li_a" href="index.html">首页</a>
+            </li>
+            <li class="nav_li">
+                <a class="nav_li_a" href="xingcheng.html">旅游行程</a>
+            </li>
+            <li class="nav_li">
+                <a class="nav_li_a on" href="dingzhi.html">定制行程</a>
+            </li>
+            <li class="nav_li">
+                <a class="nav_li_a" href="zixun_dt.html">动态资讯</a>
+            </li>
+            <li class="nav_li">
+                <a class="nav_li_a" href="about.html">关于我们</a>
+            </li>
+            <li class="nav_li">
+                <a class="nav_li_a" href="huiyuan.html">会员中心</a>
+            </li>
+            <li class="nav_li">
+                <a class="nav_li_a" href="http://www.giant.com.cn/">giant官网</a>
+            </li>
+        </ul>
+        <span class="nav_login">
+        <a class="nav_login_btn" href="login.html">登录</a>
+      </span>
+    </div>
+</div>
+<div class="m_bass_nav">
+    <ul class="m_bass_nav_ul list-group">
+        <li class="m_bass_nav_li list-group-item">
+            <a class="m_bass_nav_lia" href="index.html">首页</a>
+        </li>
+        <li class="m_bass_nav_li list-group-item">
+            <a class="m_bass_nav_lia" href="xingcheng.html">旅游行程</a>
+        </li>
+        <li class="m_bass_nav_li on list-group-item">
+            <a class="m_bass_nav_lia" href="dingzhi.html">定制行程</a>
+        </li>
+        <li class="m_bass_nav_li list-group-item">
+            <a class="m_bass_nav_lia" href="zixun_dt.html">动态资讯</a>
+        </li>
+        <li class="m_bass_nav_li list-group-item">
+            <a class="m_bass_nav_lia" href="about.html">关于我们</a>
+        </li>
+        <li class="m_bass_nav_li list-group-item">
+            <a class="m_bass_nav_lia" href="huiyuan.html">会员中心</a>
+        </li>
+        <li class="m_bass_nav_li list-group-item">
+            <a class="m_bass_nav_lia" href="http://www.giant.com.cn/">giant官网</a>
+        </li>
+    </ul>
+</div>
+<!-- nav end -->
+
+<div class="dingzhi">
+    <div class="center">
+        <div class="dingzhi_content">
+        <span class="dingzhi_content_tle">
+          定制旅程<b>（只要15人以上即可成团）</b>
+        </span>
+            <div class="dz_content">
+                <div class="dz_jiben">
+                    <span class="dz_jiben_left">基本资料</span>
+                    <div class="dz_jiben_right">
+              <span class="dz_jiben_name">
+                <input class="dz_jiben_input" type="text" placeholder="*姓名">
+              </span>
+                        <div class="dz_jiben_zhengjian">
+                            <select class="dz_zhengjian_sel" name="" id="">
+                                <option value="1">请选择证件类型</option>
+                                <option value="2">身份证</option>
+                            </select>
+                            <input class="dz_zhengjian_input" type="text">
+                        </div>
+                        <span class="dz_jiben_phone">
+                <input class="dz_jiben_input" type="text" placeholder="*手机号码">
+              </span>
+                        <span class="dz_jiben_email">
+                <input class="dz_jiben_input" type="text" placeholder="*邮箱">
+              </span>
+                    </div>
+                </div>
+                <div class="dz_xuqiu">
+                    <span class="dz_jiben_left">需求资料</span>
+                    <div class="dz_jiben_right">
+              <span class="dz_xuqiu_tel">
+                <input type="text" class="dz_xuqiutle_input" placeholder="*填写活动标题">
+              </span>
+                        <div class="dz_xuqiu_photoes">
+                            <div class="dz_xuqiu_loadphoto">
+                                <img class="dz_xuqiu_photo" src="images/dingzhi/moren.png" alt="">
+                                <button class="dz_xuqiu_photobtn" type="button" id="textfield"></button>
+                                <input type="file" class="btn_upload" name="fileField" id="fileField"
+                                       onchange="document.getElementById('textfield').value=this.value">
+                            </div>
+                        </div>
+                        <span class="dz_xuqiu_jianjie">
+                <textarea class="dz_xuqiu_jianjietext" name="" id="" cols="30" rows="10"
+                          placeholder="*在此输入活动简介"></textarea>
+              </span>
+                        <span class="dz_xuqiu_money">
+                报名费用：<input class="dz_xuqiu_moneyinput" type="text">
+                单位：元
+              </span>
+                        <div class="dz_xuqiu_level">
+                            <input class="dz_xuqiu_level_radio" type="radio" id="zyj" checked="checked" name="level"
+                                   value="zyj">
+                            <label class="checked" name="zyj" for="zyj">
+                                <div class="dz_xuqiu_zy">
+                                    <img src="images/index/zhuanye.png" alt="">
+                                    <span>专业级</span>
+                                </div>
+                            </label>
+                            <input class="dz_xuqiu_level_radio" type="radio" id="tzj" name="level" value="tzj">
+                            <label name="tzj" for="tzj">
+                                <div class="dz_xuqiu_tz">
+                                    <img src="images/index/tiaozhan.png" alt="">
+                                    <span>挑战级</span>
+                                </div>
+                            </label>
+                            <input class="dz_xuqiu_level_radio" type="radio" id="xxj" name="level" value="xxj">
+                            <label name="xxj" for="xxj">
+                                <div class="dz_xuqiu_xx">
+                                    <img src="images/index/xiuxian.png" alt="">
+                                    <span>休闲级</span>
+                                </div>
+                            </label>
+                            <a href="javascript:;" class="m_fount_leftbottom_search">查找</a>
+                        </div>
+                        <div class="dz_xuqiu_licheng">
+                            <select class="dz_xuqiu_lichengsel" name="" id="">
+                                <option value="0">*目的地</option>
+                                <option value="1">北京</option>
+                                <option value="2">北京</option>
+                                <option value="3">张家口</option>
+                                <option value="4">张家口</option>
+                                <option value="5">张家口</option>
+                            </select>
+                            <select class="dz_xuqiu_lichengsel" name="" id="">
+                                <option value="0">*出发地</option>
+                                <option value="1">北京</option>
+                                <option value="2">北京</option>
+                                <option value="3">张家口</option>
+                                <option value="4">张家口</option>
+                                <option value="5">张家口</option>
+                            </select>
+                            <input class="dz_xuqiu_lichenginput" type="text" placeholder="*总里程">
+                            <div class="dz_xuqiu_licheng_date">
+                                <input class="xuqiu_licheng_date_input" type="text" id="date1" placeholder="*出发日期">
+                            </div>
+                            <div class="dz_xuqiu_licheng_date">
+                                <input class="xuqiu_licheng_date_input" type="text" id="date2" placeholder="*出发日期">
+                            </div>
+                        </div>
+                        <div class="dz_xuqiu_luxian">
+                            <span class="dz_xuqiu_luxiantle">线路添加：</span>
+                            <div class="dz_xuqiu_luxian_content">
+                                <div class="dz_xuqiu_luxiancon">
+                                    <input class="xuqiu_luxian_shuru" type="text"
+                                           placeholder="*请录入路线，每个地方意英文逗号隔开（建议每日行程不超过100千米）">
+                                    <input class="xuqiu_luxian_juli" type="text" placeholder="*行程距离（km）">
+                                    <textarea class="xuqiu_luxian_shuoming" name="" id="" cols="30" rows="10"
+                                              placeholder="*行程说明"></textarea>
+                                    <input class="xuqiu_luxian_food" type="text" placeholder="*早餐">
+                                    <input class="xuqiu_luxian_food" type="text" placeholder="*午餐">
+                                    <input class="xuqiu_luxian_food" type="text" placeholder="*晚餐">
+                                    <input class="xuqiu_luxian_didian" type="text" placeholder="*住宿地点">
+                                    <input class="xuqiu_luxian_didian" type="text" placeholder="*住宿地点导航">
+                                    <!--添加删除按钮-->
+                                    <div id="delete">x</div>
+                                </div>
+                                <span class="dz_xuqiu_luxian_add"><a href="javascript:;">添加行程天数</a></span>
+
+
+                            </div>
+                        </div>
+                        <div class="dz_teshu">
+                            <span class="dz_teshu_tel">特殊说明：</span>
+                            <textarea class="dz_teshu_text" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <span class="dz_tijiao">
+                <a class="dz_tijiao_a" href="javascript:;">提交审核</a>
+                <b class="dz_tijiao_tishi">提示：消费者发起的活动需要通过审核，审核时间3~5工作日，若需紧急审核，请拨打010-98765433</b>
+              </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- bottom start -->
+<div class="index_bottom">
+    <div class="bottom_top">
+        <div class="center">
+            <div class="bottom_topleft">
+                <a class="bottom_topleft_a" href="javascript:;">@捷安特（昆山）有限公司</a>
+                <span>预约热线：0512-57022237</span>
+            </div>
+            <div class="bottom_topright">
+                <span class="bottom_topright_span">捷安特相关站点链接：</span>
+                <select class="bottom_select" name="" id="">
+                    <option value="0">
+                        <a href="javascript:;">网站链接</a>
+                    </option>
+                    <option value="http://www.giant.com.cn/">
+                        <a href="http://www.giant.com.cn/">捷安特官网</a>
+                    </option>
+                    <option value="http://www.livgiant.com.cn/index.html">
+                        <a href="http://www.livgiant.com.cn/index.html">Liv/giant</a>
+                    </option>
+                    <option value="http://www.giantev.com.cn/zh-EV/">
+                        <a href="http://www.giantev.com.cn/zh-EV/">捷安特.电动车</a>
+                    </option>
+                    <option value="http://www.momentum-biking.com/">
+                        <a href="http://www.momentum-biking.com/">莫 曼 顿</a>
+                    </option>
+                    <option value="http://giant-cycling-lifestyle.com/">
+                        <a href="http://giant-cycling-lifestyle.com/">基 金 会</a>
+                    </option>
+                    <option value="http://www.giantcyclingworld.com/web/travel.php">
+                        <a href="http://www.giantcyclingworld.com/web/travel.php">台湾捷安特旅行社</a>
+                    </option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_bottom">
+        <div class="center">
+            <div class="bottom_bleft">
+                <div class="bottom_bleft_img">
+                    <img src="images/bass/bottom_logo.png" alt="">
+                    <img src="images/bass/bottom.png" alt="">
+                </div>
+                <div class="bottom_shuoming">
+                    <p>2016捷安特官网 本站图文是捷安特旅行社版权所有盗用必究</p>
+                    <p>服务时间：周一~周五 09:00am ~ 18:00pm</p>
+                </div>
+            </div>
+            <div class="bottom_bright">
+                <p><a href="javascript:;">捷安特旅行社股份有限公司</a> | <a href="http://www.miibeian.gov.cn" target="_blank">苏ICP备06007520号-8</a>
+                </p>
+                <p>江苏省昆山市经济开发区洪湖路889号</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- bottom end -->
+<script src="lib/js/jquery-1.10.1.min.js"></script>
+<script src="lib/js/bootstrap.min.js"></script>
+<script src="lib/dateSelect/dateSelect.js"></script>
+<script>
+    $(function () {
+        $('.dz_xuqiu_level label').click(function () {
+            var radioId = $(this).attr('name');
+            $('.dz_xuqiu_level label').removeAttr('class') && $(this).attr('class', 'checked');
+            $('.dz_xuqiu_level_radio').removeAttr('checked') && $('#' + radioId).attr('checked', 'checked');
+        });
+    });
+    $("#date1").dateSelect();
+    $("#date2").dateSelect();
+    $("#m_headbtn").click(function () {
+        $(".m_bass_nav").slideToggle("slow");
+    });
+    var newDom = $(".dz_xuqiu_luxiancon");
+    $(".dz_xuqiu_luxian_add").click(function () {
+        /*$(".dz_xuqiu_luxian_content").append(newDom);*/
+        $(".dz_xuqiu_luxian_add").before($(newDom).clone(true))
+        $('#delete').show()
+    });
+    /*添加删除按钮*/
+
+    $('#delete').on('click', ()=> {
+        $(".dz_xuqiu_luxiancon").eq(1).remove();
+        $('#delete').hide()
+
+    });
+
+
+    $(function () {
+        $('.bottom_select').change(function (e) {
+            if ($('.bottom_select option:selected').val() != 0) {
+                window.open($('.bottom_select option:selected').val());
+            }
+            /*console.log($('.bottom_select option:selected').val());*/
+        })
+    });
+</script>
+</body>
+</html>
